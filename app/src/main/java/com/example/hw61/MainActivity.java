@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
+
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -29,8 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 .load("https://static.wikia.nocookie.net/vsbattles/images/0/03/Seems_fine.jpg/revision/latest/scale-to-width-down/600?cb=20210409204243")
                 .into(binding.imageView);
 
-        binding.imageView.setOnClickListener(v ->  {
-
+        binding.imageView.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, MapsActivity.class);
             startActivity(intent);
         });

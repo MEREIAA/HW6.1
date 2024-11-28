@@ -41,7 +41,7 @@ dependencies {
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
 
-    implementationlibs.picass.o
+    implementation libs.picass.o
 
     implementation libs.play.services.maps
     implementation libs.play.services.location
